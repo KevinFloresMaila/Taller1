@@ -11,8 +11,7 @@ public final class Curso {
         int inscritosReales = cantidadinscritos;
 
         if (cantidadinscritos > this.cantidadmaximaalumno) {
-            System.out.println("La cantidad de inscritos (" + cantidadinscritos + ") excede la capacidad máxima de "
-                    + this.cantidadmaximaalumno + ". Se ajusta a la capacidad máxima.");
+            System.out.println("La cantidad de inscritos (" + cantidadinscritos + ") excede la capacidad máxima de "+ this.cantidadmaximaalumno +" de la Materia "+ this.nombrecurso +" . Se ajusta a la capacidad máxima.");
             inscritosReales = this.cantidadmaximaalumno;
         }
 
