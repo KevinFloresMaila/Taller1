@@ -1,9 +1,6 @@
 package com.trabajoclase;
 
 public final class Curso {
-    static {
-        System.out.println("Clase Curso cargada.");
-    }
     private final String nombrecurso;
     private final int cantidadmaximaalumno;
     private final int cantidadinscritos;
